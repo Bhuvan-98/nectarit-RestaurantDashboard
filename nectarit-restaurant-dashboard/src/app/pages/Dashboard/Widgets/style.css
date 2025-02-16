@@ -1,0 +1,75 @@
+.dashboard-div {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    background: rgb(229, 229, 229);
+    overflow-y: auto;
+    height: 80%;
+}
+
+
+.pie-div {
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 20px;
+    height: max-content;
+}
+
+.pie-head-name {
+    font-family: verdana;
+    font-size: 16px;
+}
+
+.pie-head {
+    margin: 0 0 10px 0;
+}
+
+.chart-head {
+    width: 100%;
+    margin: 20px 0;
+    font-size: 20px;
+    font-family: system-ui;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #1976d2;
+    display: inline-flex;
+    font-family: verdana;
+}
+
+.chart-head-title{
+    margin-left: 10px;
+}
+
+.detail-div {
+    background: white;
+    padding: 10px 30px 20px 20px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    margin: 20px;
+    margin: 20px;
+    width: fit-content;
+}
+
+.sales-charts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mar-lr-20 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.gauge-char {
+    width: fit-content;
+    padding: 20px 40px;
+    margin: 0 90px;
+}
+
+.delivery-data {
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    padding: 50px 0;
+    margin: 20px;
+    display: flex;
+}

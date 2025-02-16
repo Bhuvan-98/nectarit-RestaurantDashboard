@@ -1,0 +1,8 @@
+.dashboard-div {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    background: rgb(229, 229, 229);
+    overflow-y: auto;
+    height: 80%;
+}
